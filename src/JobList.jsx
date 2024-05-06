@@ -1,10 +1,9 @@
-// JobList.js
 
 import React from 'react';
 import "./filter.css";
 
 const JobList = ({ jobs }) => {
-    console.log(jobs.jobs,"jobjs")
+    // console.log(jobs.jobs,"jobjs")
   return (
     <div className="job-list-container">
       {jobs.jobs.jdList.map(job => ( // Accessing `jdList` instead of `jobs` directly

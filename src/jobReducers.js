@@ -1,4 +1,3 @@
-// reducers/jobsReducer.js
 
 import { FETCH_JOBS_REQUEST, FETCH_JOBS_SUCCESS, FETCH_JOBS_FAILURE } from './jobactions';
 

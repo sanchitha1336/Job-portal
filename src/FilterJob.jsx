@@ -33,7 +33,6 @@ const Filters = () => {
   return (
     <div className="filters-container">
       <form onSubmit={handleSubmit}>
-        {/* Render filter inputs here */}
         <input type="text" name="minExperience" value={filters.minExperience} onChange={handleChange} placeholder="Minimum Experience" />
         <input type="text" name="companyName" value={filters.companyName} onChange={handleChange} placeholder="Company Name" />
         <input type="text" name="location" value={filters.location} onChange={handleChange} placeholder="Location" />
